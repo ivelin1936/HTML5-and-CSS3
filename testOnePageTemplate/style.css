@@ -1,0 +1,44 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #3d3536;
+}
+
+.cd-fixed-bg {  
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+  }
+  
+  .cd-fixed-bg.cd-fixed-bg--1 {
+    background-image: url("./resources/cesar-couto-1325045-unsplash.jpg");
+  }
+  
+  .cd-fixed-bg.cd-fixed-bg--2 {
+    background-image: url("./resources/claudia-ramirez-1324169-unsplash.jpg");
+  }
+  
+  .cd-fixed-bg.cd-fixed-bg--3 {
+    background-image: url("./resources/jake-blucker-1325852-unsplash.jpg");
+  }
+  
+  .cd-fixed-bg.cd-fixed-bg--4 {
+    background-image: url("./resources/shawn-ang-1324903-unsplash.jpg");
+  }
+  
+  .cd-scrolling-bg {
+    position: relative;
+    min-height: 100%;
+    padding: 2em 0;
+    line-height: 2;
+
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+
+  .cd-scrolling-bg.cd-scrolling-bg--color-2 {
+    background-color: #99a478;
+    color: #3d3536;
+  }
