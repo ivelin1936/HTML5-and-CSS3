@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto+Slab');
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+header section.navigation {
+    color: #F9690E;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.navigation i {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.navigation nav {
+    display: inline-block;
+    float: right;
+    margin: 11px auto;
+}
+
+.navigation p { 
+    display: inline-block;
+    font-size: 26px;
+    margin: 5px auto;
+    font-weight: bold;
+}
+
+.navigation nav ul {
+    margin: 0 auto;
+}
+
+.navigation nav ul li {
+    display: inline-block;
+}
+
+.navigation nav ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.navigation nav ul li a {
+    color: #F9690E;
+    text-decoration: none;
+}
+
+.navigation nav ul li a:hover {
+    border-bottom: 2px solid #F9690E;
+    border-top: 2px solid #F9690E;
+    border-radius: 15%;
+}
+
+/** section welcome */
+section.welcome {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('../Requirements-and-Resources/Images/picture.jpg'), no-repeat;
+    background-size: cover; /**Покриий целият контеинер*/
+    align-items: center;
+}
+
+section.welcome h1 {
+    color: white;
+    padding-top: 21%;
+    width: 54%;
+    text-align: center;
+    font-size: 36px;
+    margin: 0 auto;
+}
+
+section.welcome h1 span {
+    color: #F9690E;
+}
+
+section.welcome button {
+    background: transparent;
+    border: 2px solid #F9690E;
+    padding: 10px 20px;
+    color: #F9690E;
+    font-size: 26px;
+    margin: 75px 0px 125px 508px;
+}
+
+section.welcome button:hover {
+    background: #F9690E;
+    border: 2px solid #F9690E;
+    color: white;
+    cursor: pointer;
+}
+
+/** section .info */
+.info-article {
+    display: inline-block;
+    width: 33%;
+    background: #F9690E;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+}
+
+.info-article:not(:last-child) {
+    margin-right: 2px;
+}
+
+.info-article h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info-article p {
+    margin: 30px 63px 40px 63px;
+}
+
+/** footer */
+footer {
+    border-top: 1px solid #F9690E;
+    border-bottom: 1px solid #F9690E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Helvetica", sans-serif;
+}
+
+footer p {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer ul {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+    font-size: 24px;
+}
+
+footer ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+footer ul li a {
+    color: black;
+}
+
+footer ul li a:hover {
+    color: #F9690E;
+}
